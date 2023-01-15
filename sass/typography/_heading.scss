@@ -1,0 +1,23 @@
+.heading {
+ font-family: "Nunito";
+ font-style: normal;
+ font-weight: 700;
+ font-size: 6rem;
+ text-align: center;
+
+ &__qoute {
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+ }
+
+ &__normal {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+ }
+}

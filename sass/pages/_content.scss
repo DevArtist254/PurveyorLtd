@@ -1,0 +1,75 @@
+.content {
+ width: 80%;
+ margin: 0 auto;
+
+ &__header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 10rem;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+ }
+
+ &__content {
+  margin-top: 5rem;
+  width: 100%;
+
+  &--header {
+   width: 100%;
+   margin-bottom: 3%;
+  }
+
+  &--main {
+   width: 100%;
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+  }
+
+  &--features {
+   width: 20%;
+   height: 100%;
+  }
+
+  &--featured {
+   width: 75%;
+   height: 100%;
+  }
+ }
+
+ &__banner {
+  width: 100%;
+  height: 35vh;
+  margin-top: 5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &--bannerContent {
+   width: 75%;
+   height: 50%;
+   background-color: rgba(255, 255, 255, 0.6);
+  }
+ }
+
+ &__subContent {
+  width: 100%;
+  height: 75vh;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  &--main {
+   height: 100%;
+   width: 75%;
+  }
+ }
+}

@@ -4,15 +4,32 @@
  background: url(../images/landing-page-img.png);
  background-position: center;
  background-repeat: no-repeat;
- background-size: 100% 100%;
+ background-size: cover;
+
+ @include respond(tab-land) {
+  background-size: 100% 100%;
+ }
+
  display: flex;
  flex-direction: column;
  justify-content: center;
  align-items: center;
 
+ &__p {
+  width: initial;
+
+  @include respond(tab-land) {
+   width: 50%;
+  }
+ }
+
  &__text {
-  text-align: start;
+  text-align: center;
   width: 80%;
+
+  @include respond(tab-land) {
+   text-align: start;
+  }
  }
 }
 

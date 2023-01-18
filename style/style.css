@@ -279,7 +279,8 @@ img {
 .header {
   width: 100vw;
   height: 100vh;
-  background: url(../images/landing-page-img.png);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/IMG_20220429_161312-scaled.jpg);
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -298,7 +299,7 @@ img {
 }
 @media (min-width: 75em) {
   .header__p {
-    width: 50%;
+    width: 55%;
   }
 }
 .header__text {
@@ -354,10 +355,6 @@ img {
     padding-left: 370px;
     text-align: initial;
   }
-}
-.card-big:hover {
-  background-size: 100% 100%;
-  color: white;
 }
 
 .about-us {

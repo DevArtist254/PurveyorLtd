@@ -1,7 +1,9 @@
 .header {
  width: 100vw;
  height: 100vh;
- background: url(../images/landing-page-img.png);
+ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url(../images/IMG_20220429_161312-scaled.jpg);
+ background-attachment: fixed;
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
@@ -19,7 +21,7 @@
   width: initial;
 
   @include respond(tab-land) {
-   width: 50%;
+   width: 55%;
   }
  }
 
@@ -81,10 +83,10 @@
   text-align: initial;
  }
 
- &:hover {
-  background-size: 100% 100%;
-  color: white;
- }
+ //  &:hover {
+ //   background-size: ;
+ //   color: white;
+ //  }
 }
 
 .about-us {
